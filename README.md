@@ -33,7 +33,7 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 
 <p align="justify">This performance heterogeneity highlights the practical relevance to link prediction of the general No Free Lunch theorem, which proves that across all possible inputs, every machine learning method has the same average performance, and hence accuracy must be assessed on a per dataset basis. The observed diversity of errors indicates that none of the 203 individual predictors is a universally-best method for the subset of all inputs that are realistic. However, that diversity also implies that a nearly-optimal link prediction method for realistic inputs could be constructed by combining individual methods so that the best individual method is applied for each given input. Such a meta-learning algorithm cannot circumvent the No Free Lunch theorem, but it can achieve optimal performance on realistic inputs by effectively redistributing its worse-than-average performance onto unrealistic inputs, which are unlikely to be encountered in practice.</p>
 
-<p align="justify"> In this page we also provide one of the useful stacking methods in our paper to be accessible for all researchers in the field. In the module provided in Python we construct 42 topological features and combine them using a standard random forest.</p>
+<p align="justify"> In this page we also provide one of the useful stacking methods in our paper to be accessible for all researchers in the field. In the module provided in Python we construct 42 topological features and combine them using a standard random forest as a supervised learning algorithm.</p>
 
 ### Reference:
 <br><b>Stacking Models for Nearly Optimal Link Prediction in Complex Networks</b></a>
@@ -44,7 +44,7 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 <p align="left">
 <a href="Benchmark/OptimalLinkPrediction.pickle">Download Pickle Format</a>.</p>
 
-<p align="justify">This package contains the corpus of 548 real-world networks out of 572 networks from <a href="https://github.com/Aghasemian/CommunityFitNet">CommunityFitNet</a> from many scientific domains drawn from the Index of Complex Networks (<a href="https://icon.colorado.edu/#!/">ICON</a>). This corpus spans a variety of sizes and structures, with 23% social, 22% economic, 33% biological, 12% technological, 3% information, and 7% transportation graphs (Fig. S1 of the paper). More information on these networks can be found in <a href="https://github.com/Aghasemian/CommunityFitNet"> CommunityFitNet GitHub</a> for the partitions achieved by 16 state-of-the-art community detection algorithms in <a href="https://arxiv.org/abs/1802.10582">our previous work</a>.</p>
+<p align="justify">This package contains the corpus of 548 real-world networks out of 572 networks from <a href="https://github.com/Aghasemian/CommunityFitNet">CommunityFitNet</a> from many scientific domains drawn from the Index of Complex Networks (<a href="https://icon.colorado.edu/#!/">ICON</a>). This corpus spans a variety of sizes and structures, with 23% social, 22% economic, 33% biological, 12% technological, 3% information, and 7% transportation graphs (Fig. S1 of the paper). More information regarding the partitions achieved by 16 state-of-the-art community detection algorithms in <a href="https://arxiv.org/abs/1802.10582">our previous work</a> over these networks are provided in <a href="https://github.com/Aghasemian/CommunityFitNet"> CommunityFitNet GitHub</a>.</p>
 
 ### Download the code:
 <p align="left">
