@@ -7,12 +7,12 @@
 In this page we provide (i) a reference set of networks as a benchmark for link prediction (Fig. S1 of the paper), (ii) the necessary code to generate 42 topological features for each network (Table S1 of the paper), and (iii) a useful stacking method to combine these topological features to be used in link prediction.</p>
 
 <p align="center">
-<img src ="Fig_S1.png" width=700><br>
+<img src ="Images/Fig_S1.png" width=700><br>
 <b>Fig. S1 of the paper</b>
 </p>
 
 <p align="center">
-<img src ="Table_S1.png" width=900><br>
+<img src ="Images/Table_S1.png" width=900><br>
 <b>Table S1 of the paper</b>
 </p>
 
@@ -20,14 +20,14 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 <p align="justify"> The most common approach to predict missing links constructs a score function from network statistics of each unconnected node pair. We studied 42 of these topological predictors in this paper, which include predictions based on node degrees, common neighbors, random walks, node and edge centralities, among others (see SI Appendix, Table S1). Models of large-scale network structure and close proximity of an unconnected pair, after embedding a network's nodes into a latent space are also commonly used for link prediction. We have also studied 11 of the model-based methods (Table S2 of the paper), besides 150 of the embedding-based predictors, derived from two popular graph embedding algorithms and six notions of distance or similarity in the latent space in this work. In total, we considered 203 features of node pairs. </p>
 
 <p align="center">
-<img src ="Table_S2.png" width=900><br>
+<img src ="Images/Table_S2.png" width=900><br>
 <b>Table S2 of the paper</b>
 </p>
 
 <p align="justify">Across domains, predictor importances cluster in interesting ways, such that some individual and some families of predictors perform better on specific domains. For instance, examining the 10 most-important predictors by domain (29 unique predictors; Fig. 1 of the paper), we find that topological methods, such as those based on common neighbors or localized random walks, perform well on social networks but less well on networks from other domains. In contrast, model-based methods perform relatively well across domains, but often perform less well on social networks than do topological measures and some embedding-based methods. Together, these results indicate that predictor methods exhibit a broad diversity of errors, which tend correlate somewhat with scientific domain.</p>
 
 <p align="center">
-<img src ="Fig_1.png" width=900><br>
+<img src ="Images/Fig_1.png" width=900><br>
 <b>Fig. 1 of the paper</b>
 </p>
 
