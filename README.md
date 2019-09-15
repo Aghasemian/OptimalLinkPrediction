@@ -3,8 +3,10 @@
 <img src ="Images/OptimalLinkPrediction_logo.png" width=700><br>
 </p>
 
-<p align="justify">This page is a companion for our paper on optimal link prediction, written by <a href = "https://aghasemian.github.io">Amir Ghasemian</a>, <a href = "https://homahm.github.io">Homa Hosseinmardi</a>, <a href = "https://www.isi.edu/people/galstyan/about">Aram Galstyan</a>, <a href = "http://www.people.fas.harvard.edu/~airoldi/">Edoardo Airoldi</a>, and <a href="http://santafe.edu/~aaronc/">Aaron Clauset</a>. (arXiv:...).
-Here, we provide (i) a reference set of networks as a benchmark for link prediction (Fig. S1 of the paper), (ii) the necessary code to generate 42 topological features for each network (Table S1 of the paper), and (iii) a useful stacking method to combine these topological features to be used in link prediction.</p>
+<p align="justify">This page is a companion for the <a href="https://arxiv.org/abs/" target="_blank">paper</a>
+<br><b>Amir Ghasemian</b>, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi and Aaron Clauset
+<br><b>"Stacking Models for Nearly Optimal Link Prediction in Complex Networks", Preprint, arxiv:0000.0000 (2019)</b></a>
+<br>on optimal link prediction. Here, we provide (i) a reference set of networks as a benchmark for link prediction (Fig. S1 of the paper), (ii) the necessary code to generate 42 topological features for each network (Table S1 of the paper), and (iii) a useful stacking method to combine these topological features to be used in link prediction.</p>
 
 <p align="center">
 <img src ="Images/Fig_S1.png" width=700><br>
@@ -34,11 +36,6 @@ Here, we provide (i) a reference set of networks as a benchmark for link predict
 <p align="justify">This performance heterogeneity highlights the practical relevance to link prediction of the general No Free Lunch theorem, which proves that across all possible inputs, every machine learning method has the same average performance, and hence accuracy must be assessed on a per dataset basis. The observed diversity of errors indicates that none of the 203 individual predictors is a universally-best method for the subset of all inputs that are realistic. However, that diversity also implies that a nearly-optimal link prediction method for realistic inputs could be constructed by combining individual methods so that the best individual method is applied for each given input. Such a meta-learning algorithm cannot circumvent the No Free Lunch theorem, but it can achieve optimal performance on realistic inputs by effectively redistributing its worse-than-average performance onto unrealistic inputs, which are unlikely to be encountered in practice.</p>
 
 <p align="justify"> In this page we also provide one of the useful stacking methods in our paper to be accessible for all researchers in the field. In the module provided in Python we construct 42 topological features and combine them using a standard random forest as a supervised learning algorithm.</p>
-
-### Reference:
-<br><b>Stacking Models for Nearly Optimal Link Prediction in Complex Networks</b></a>
-<br><b>Amir Ghasemian</b>, Homa Hosseinmardi, Aram Galstyan, Edoardo Airoldi and Aaron Clauset
-<br> (<a href="https://arxiv.org/abs/" target="_blank"> arXiv version </a>)</p>
 
 ### Download the package:
 <p align="left">
