@@ -63,12 +63,13 @@ olp.demo()
 
 ```python 
 import pickle  
-infile = open('./OLS.pickle','rb')  
 # load the data 
+infile = open('./OLS.pickle','rb')  
 df = pickle.load(infile)  
 
 # read edge lists for all networks
-df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the edge list for each network 
+df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the edge list 
+                              # for each network 
  
 # extract the edge list for the first network 
 edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph  
