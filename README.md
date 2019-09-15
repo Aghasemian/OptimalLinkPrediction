@@ -68,7 +68,7 @@ df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the e
 edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph 
 ```
 
-<p align="justify"> To run the topological feature stacking model on one of the networks on real dataset:</p>
+<p align="justify"> To run the topological feature stacking model on one of the networks in real dataset:</p>
 
 ```python 
 import OLP as olp 
