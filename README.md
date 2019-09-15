@@ -60,6 +60,7 @@ olp.demo()
 ```
 
 <p align="justify"> To load the data:</p>
+
 ```python 
 import pickle  
 # load the data 
