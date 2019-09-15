@@ -58,7 +58,9 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 import OLP as olp
 olp.demo()
 ```
+
 <p align="justify"> To load the data:</p>
+
 ```python 
 import pickle  
 # load the data 
@@ -72,7 +74,9 @@ df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the e
 # extract the edge list for the first network 
 edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph 
 ```
+
 <p align="justify"> To run the topological feature stacking model on one of the networks on real dataset:</p>
+
 ```python 
 import OLP as olp 
 # run topological stacking model
