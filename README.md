@@ -53,24 +53,27 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 ### Instruction for running the code:
 
 <p align="justify"> >>> To run a demo:</p>
-<p align="justify"> >>> import OLP as olp </p>
-<p align="justify"> >>> olp.demo() </p>
 
 ```python
 import OLP as olp
+olp.demo()
 ```
 
 <p align="justify"> To run the topological feature stacking model on one of the networks on real dataset:</p>
 
- 
-<p align="justify"> >>> import pickle </p>
-<p align="justify"> >>> infile = open('./OLS.pickle','rb')  </p>
-<p align="justify"> >>> df = pickle.load(infile) # load the data </p>
-<p align="justify">  </p>
-<p align="justify"> >>> df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the edge list for each network </p>
-<p align="justify">   </p>
-<p align="justify"> # creat edge list for first network </p>
-<p align="justify"> >>> edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph </p>
-<p align="justify"> >>> import OLP as olp  </p>
-<p align="justify"> >>> olp.topol_stacking(edges_orig) </p> 
+```python 
+import pickle  
+infile = open('./OLS.pickle','rb')  
+# load the data 
+df = pickle.load(infile)  
 
+# read edge lists for all networks
+df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the edge list for each network 
+ 
+# extract the edge list for the first network 
+edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph  
+
+import OLP as olp 
+# run topological stacking model
+olp.topol_stacking(edges_orig) 
+```
