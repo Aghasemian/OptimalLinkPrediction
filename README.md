@@ -52,13 +52,6 @@ Here, we provide (i) a reference set of networks as a benchmark for link predict
 
 ### Instruction for using the package and running the code:
 
-<p align="justify">To run the demo:</p>
-
-```python
-import OLP as olp
-olp.demo()
-```
-
 <p align="justify"> To load the data:</p>
 
 ```python 
@@ -81,4 +74,11 @@ edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original grap
 import OLP as olp 
 # run topological stacking model
 olp.topol_stacking(edges_orig) 
+```
+
+<p align="justify">To run the demo:</p>
+
+```python
+import OLP as olp
+olp.demo()
 ```
