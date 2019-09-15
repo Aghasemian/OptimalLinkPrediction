@@ -57,7 +57,7 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 <p align="justify"> >>> olp.demo() </p>
 
 <script type="text/javascript">
-    // >>> import OLP as olp
+>>> import OLP as olp
 </script>
 
 <p align="justify"> To run the topological feature stacking model on one of the networks on real dataset:</p>
