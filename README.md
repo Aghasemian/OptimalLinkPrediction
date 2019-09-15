@@ -1,12 +1,15 @@
 # Optimal Link Prediction
-<p align="center">
-<img src ="Images/OptimalLinkPrediction_logo.png" width=700><br>
-</p>
 
 <p align="justify">This page is a companion for the <a href="https://arxiv.org/abs/" target="_blank">paper</a>
 <br><b>Amir Ghasemian</b>, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi and Aaron Clauset
 <br><b>"Stacking Models for Nearly Optimal Link Prediction in Complex Networks", Preprint, arxiv:0000.0000 (2019)</b></a>
-<br>on optimal link prediction. Here, we provide (i) a reference set of networks as a benchmark for link prediction (Fig. S1 of the paper), (ii) the necessary code to generate 42 topological features for each network (Table S1 of the paper), and (iii) a useful stacking method to combine these topological features to be used in link prediction.</p>
+<br align="justify">on optimal link prediction.
+
+<p align="center">
+<img src ="Images/OptimalLinkPrediction_logo.png" width=700><br>
+</p>
+
+Here, we provide (i) a reference set of networks as a benchmark for link prediction (Fig. S1 of the paper), (ii) the necessary code to generate 42 topological features for each network (Table S1 of the paper), and (iii) a useful stacking method to combine these topological features to be used in link prediction.</p>
 
 <p align="center">
 <img src ="Images/Fig_S1.png" width=700><br>
