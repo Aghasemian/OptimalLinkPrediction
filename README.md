@@ -52,7 +52,7 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 
 ### Instruction for running the code:
 
-<p align="justify"> >>> To run a demo:</p>
+<p align="justify">To run the demo:</p>
 
 ```python
 import OLP as olp
