@@ -50,5 +50,10 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 <p align="left">
 <a href="Code/OPL.py">Topol. Stacking Method</a>.</p>
 
+### Instruction for running the code
+
+<p align="justify"> To run a demo:</p>
+
+<p align="justify"> To run the topological feature stacking model on one of the networks on real dataset: .</p>
 
 
