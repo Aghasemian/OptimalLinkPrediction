@@ -62,12 +62,12 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
  
 <p align="justify"> >>> import pickle </p>
 <p align="justify"> >>> infile = open('./OLS.pickle','rb')  </p>
-<p align="justify"> >>> df = pickle.load(infile) # </p>
+<p align="justify"> >>> df = pickle.load(infile) # load the data </p>
 <p align="justify">  </p>
-<p align="justify"> df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the edge list for each network </p>
+<p align="justify"> >>> df_edgelists = df['edges_id'] # column 'edges_id' in dataframe df includes the edge list for each network </p>
 <p align="justify">   </p>
 <p align="justify"> # creat edge list for first network </p>
-<p align="justify"> edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph number 0  </p>
+<p align="justify"> edges_orig = df_edgelists.iloc[0] # a numpy array of edge list for original graph </p>
 <p align="justify"> >>> import OLP as olp  </p>
-<p align="justify"> >>> olp.topol_stacking(edges_orig) </p>
+<p align="justify"> >>> olp.topol_stacking(edges_orig) </p> 
 
