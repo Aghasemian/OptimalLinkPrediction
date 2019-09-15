@@ -55,7 +55,8 @@ In this page we provide (i) a reference set of networks as a benchmark for link 
 <p align="justify"> >>> To run a demo:</p>
 <p align="justify"> >>> import OLP as olp </p>
 <p align="justify"> >>> olp.demo() </p>
-```javascript
+```
+javascript
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
