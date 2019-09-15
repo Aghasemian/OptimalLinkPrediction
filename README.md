@@ -50,7 +50,7 @@ Here, we provide (i) a reference set of networks as a benchmark for link predict
 <p align="left">
 <a href="Code/OPL.py">Topol. Stacking Method</a>.</p>
 
-### Instruction for running the code:
+### Instruction for using the package and running the code:
 
 <p align="justify">To run the demo:</p>
 
