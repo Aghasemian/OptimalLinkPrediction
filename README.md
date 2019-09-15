@@ -76,7 +76,7 @@ import OLP as olp
 olp.topol_stacking(edges_orig) 
 ```
 
-<p align="justify">To run the demo:</p>
+<p align="justify">To run a demo:</p>
 
 ```python
 import OLP as olp
