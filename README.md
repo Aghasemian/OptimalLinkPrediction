@@ -44,9 +44,9 @@ on optimal link prediction.</p>
 
 ### Download the package:
 <p align="left">
-<a href="./Benchmark/OLP.pickle">Download Pickle Format</a>.</p>
+<a href="./Benchmark/OLP_updated.pickle">Download Pickle Format</a>.</p>
 
-<p align="justify">This package contains the corpus of 548 real-world networks out of 572 networks from <a href="https://github.com/Aghasemian/CommunityFitNet">CommunityFitNet</a> from many scientific domains drawn from the Index of Complex Networks (<a href="https://icon.colorado.edu/#!/">ICON</a>). This corpus spans a variety of sizes and structures, with 23% social, 22% economic, 33% biological, 12% technological, 3% information, and 7% transportation graphs (Fig. S1 of the paper). More information regarding the partitions achieved by 16 state-of-the-art community detection algorithms over these networks are provided in <a href="https://github.com/Aghasemian/CommunityFitNet"> CommunityFitNet</a>.</p>
+<p align="justify">This package contains the corpus of 550 real-world networks, a slightly expanded version of <a href="https://github.com/Aghasemian/CommunityFitNet">the CommunityFitNet corpus</a> from many scientific domains drawn from the Index of Complex Networks (<a href="https://icon.colorado.edu/#!/">ICON</a>). This corpus spans a variety of sizes and structures, with 23% social, 23% economic, 32% biological, 12% technological, 3% information, and 7% transportation graphs (Fig. S1 of the paper). More information regarding the partitions achieved by 16 state-of-the-art community detection algorithms over these networks are provided in <a href="https://github.com/Aghasemian/CommunityFitNet"> CommunityFitNet</a>.</p>
 
 ### Download the code:
 <p align="left">
@@ -59,7 +59,7 @@ on optimal link prediction.</p>
 ```python 
 import pickle  
 # load the data 
-infile = open('./Benchmark/OLP.pickle','rb')  
+infile = open('./Benchmark/OLP_updated.pickle','rb')  
 df = pickle.load(infile)  
 
 # read edge lists for all networks
