@@ -1,9 +1,9 @@
 # Optimal Link Prediction
 
-<p align="justify">This page is a companion for the <a href="https://arxiv.org/abs/1909.07578" target="_blank">paper</a>
+<p align="justify">This page is a companion for the <a href="https://arxiv.org/abs/1909.07578" target="_blank">paper</a> 	
   
 > <b>Amir Ghasemian</b>, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi and Aaron Clauset
-> <br><b>"Stacking Models for Nearly Optimal Link Prediction in Complex Networks", Preprint, arxiv:1909.07578 (2019)</b></a>
+> <br><b>"Stacking Models for Nearly Optimal Link Prediction in Complex Networks", To appear, Proc. Natl. Acad. Sci. USA (2020). [<a href="https://www.pnas.org/content/early/2020/09/03/1914950117" target="_blank">PNAS version</a>], </b>
 
 on optimal link prediction.</p>
 
