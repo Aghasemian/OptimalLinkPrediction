@@ -1,9 +1,9 @@
 # Optimal Link Prediction
 
-<p align="justify">This page is a companion for the <a href="https://arxiv.org/abs/1909.07578" target="_blank">paper</a> 	
+<p align="justify">This page is a companion for the paper 	
   
 > <b>Amir Ghasemian</b>, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi and Aaron Clauset
-> <br><b>"Stacking Models for Nearly Optimal Link Prediction in Complex Networks", To appear, Proc. Natl. Acad. Sci. USA (2020). [<a href="https://www.pnas.org/content/early/2020/09/03/1914950117" target="_blank">PNAS version</a>] </b>
+> <br><b><a href="https://www.pnas.org/content/early/2020/09/03/1914950117" target="_blank">Stacking Models for Nearly Optimal Link Prediction in Complex Networks</a>, PNAS USA 117(38), 23393-23400 (2020).
 
 on optimal link prediction.</p>
 
@@ -84,3 +84,18 @@ olp.topol_stacking(edges_orig)
 import OLP as olp
 olp.demo()
 ```
+
+### How to cite this work:
+<p>If you use this code or data in your research, please cite it as follows:</p>
+<pre>
+@article{ghasemian2020stacking,
+  title = {Stacking models for nearly optimal link prediction in complex networks},
+  author = {Ghasemian, Amir and Hosseinmardi, Homa and Galstyan, Aram and Airoldi, Edoardo M and Clauset, Aaron},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {117},
+  number = {38},
+  pages = {23393--23400},
+  year = {2020},
+  publisher = {National Acad Sciences},
+}
+</pre>
