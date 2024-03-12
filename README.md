@@ -3,7 +3,7 @@
 <p align="justify">This page is a companion for the paper 	
   
 > <b>Amir Ghasemian</b>, Homa Hosseinmardi, Aram Galstyan, Edoardo M. Airoldi and Aaron Clauset
-> <br><b><a href="https://www.pnas.org/content/early/2020/09/03/1914950117" target="_blank">Stacking Models for Nearly Optimal Link Prediction in Complex Networks</a>, PNAS USA 117(38), 23393-23400 (2020).
+> <br><b><a href="https://www.pnas.org/content/early/2020/09/03/1914950117" target="_blank">Stacking Models for Nearly Optimal Link Prediction in Complex Networks</a>, <i>PNAS USA</i> 117(38), 23393-23400 (2020).
 
 on optimal link prediction.</p>
 
